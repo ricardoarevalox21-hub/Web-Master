@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegaMovil | Vigilante las 24 Horas</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+        body {
+            background: linear-gradient(180deg, #000510 0%, #001140 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 1.5rem 3rem;
+            text-align: center;
+        }
+        .logo {
+            max-width: 300px;
+            width: 100%;
+            margin-bottom: 1.5rem;
+        }
+        .titulo {
+            color: #FFFFFF;
+            font-size: clamp(1.5rem, 5vw, 2.2rem);
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+        .imagen-principal {
+            max-width: 850px;
+            width: 100%;
+            border-radius: 16px;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 0 30px rgba(0, 85, 255, 0.25);
+        }
+        .boton {
+            background: linear-gradient(90deg, #0055ff, #0033ff);
+            color: white;
+            border: none;
+            padding: 1rem 3rem;
+            font-size: 1.15rem;
+            font-weight: 700;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 0 25px rgba(0, 85, 255, 0.4);
+            transition: transform 0.3s;
+        }
+        .boton:hover { transform: scale(1.05); }
+    </style>
+</head>
+<body>
+
+    <!-- Logo real de MegaMovil -->
+    <img src="https://i.imgur.com/K5ZpXfL.png" alt="MegaMovil - Vigilante las 24 horas" class="logo">
+
+    <h1 class="titulo">Protege lo que más importa</h1>
+
+    <!-- Imagen con cámaras y equipos visibles -->
+    <img src="https://i.imgur.com/LHZB9wc.png" alt="Cámaras y equipos de seguridad" class="imagen-principal">
+
+    <button class="boton">Conoce nuestros servicios</button>
+
+</body>
+</html>
